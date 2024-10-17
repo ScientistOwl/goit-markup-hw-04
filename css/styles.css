@@ -56,7 +56,9 @@ p {
   color: #404bbf;
 }
 .current {
+  color: #404bbf;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-list .current::before {
   background-color: #fff;
@@ -66,7 +68,7 @@ p {
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: -20px;
+  bottom: -1px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
@@ -132,9 +134,6 @@ li {
 }
 .contact:hover {
   color: #404bbf;
-}
-.contact ::after {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact:focus {
   color: #404bbf;
