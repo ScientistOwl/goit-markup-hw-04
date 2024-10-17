@@ -55,16 +55,21 @@ p {
 .nav-list :hover {
   color: #404bbf;
 }
-.nav-list :hover ::after {
+.current {
+  position: relative;
+}
+.nav-list .current::before {
+  background-color: #fff;
+}
+.nav-list .current::after {
   content: "";
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: -20px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-info .contact-list {
   display: flex;
@@ -128,7 +133,7 @@ li {
 .contact:hover {
   color: #404bbf;
 }
-.contact:hover ::after {
+.contact ::after {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact:focus {
