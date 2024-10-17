@@ -52,7 +52,7 @@ p {
   color: #2e2f42;
   position: relative;
 }
-.nav-list :hover {
+.nav-link :hover {
   color: #404bbf;
 }
 .current {
