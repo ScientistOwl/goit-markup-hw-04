@@ -142,10 +142,10 @@ li {
   color: #404bbf;
 }
 .hero-section {
-  padding: 188px 0 188px;
   background: #2e2f42;
 }
 .hero-bg {
+  padding: 188px 0 188px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
