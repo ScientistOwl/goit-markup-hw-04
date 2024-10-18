@@ -459,10 +459,10 @@ a {
 }
 .icon-foot {
 }
-.href-foot-soc :hover {
+.href-foot-soc:hover {
   background-color: #31d0aa;
 }
-.href-foot-soc :focus {
+.href-foot-soc:focus {
   background-color: #31d0aa;
 }
 .svg-icon-f {
