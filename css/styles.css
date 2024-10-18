@@ -438,8 +438,6 @@ a {
   text-decoration: none;
 }
 .container-f {
-  display: flex;
-  align-items: baseline;
 }
 .soc-foot {
   font-weight: 500;
@@ -469,8 +467,6 @@ a {
   fill: #f4f4fd;
 }
 .container-f-lt {
-  display: flex;
-  align-items: baseline;
   margin-right: 120px;
 }
 .href-foot-soc {
@@ -481,4 +477,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.site-footer .container {
+  display: flex;
+  align-items: baseline;
 }
