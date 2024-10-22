@@ -73,6 +73,9 @@ p {
   background-color: #404bbf;
   border-radius: 2px;
 }
+.nav-ref {
+  padding: 24px 0;
+}
 .contact-info .contact-list {
   display: flex;
   align-items: center;
@@ -306,10 +309,10 @@ li {
   justify-content: center;
 }
 .li-icon :hover {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 .li-icon :focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 .team-soc-icon {
   fill: #f4f4fd;
